@@ -5,7 +5,7 @@ python2.7x
 ####如何使用
 ---
 
-    $ python virginia.py key model code 
+    $ python Virginia.py key model code 
 
 key 為鑰匙  
 code 為加解密的字串   
@@ -13,9 +13,9 @@ model 有兩種 -e 執行加密 -d 執行解密
 `code可接受空格和底線，並且英文大小寫都可執行加解密  `  
 `key可支援英文大小寫`
 #### example
-python virginia.py "lemon" -e "attackatdA \_"    
+python Virginia.py "lemon" -e "attackatdA \_"    
 `lxfopvefrN _ `  
-python virginia.py "lemon" -d "lxfopvefrN \_"  
+python Virginia.py "lemon" -d "lxfopvefrN \_"  
 `attackatdA _`
 ###Caesar 加密解密  
 ####如何使用
